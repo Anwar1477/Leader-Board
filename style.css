@@ -19,7 +19,7 @@ body{
     align-items: center;
     margin-left: 200px;
 }
-.image img{
+.logo-image img{
     width: 40.42px;
     height: 51px;
 }
@@ -46,7 +46,7 @@ body{
     color: red;
 }
 
-.image2 img{
+.profile-image img{
     width: 51px;
     height: 51px;
 }

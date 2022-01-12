@@ -1,8 +1,54 @@
 /* body font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0 auto;
+}
+.header{
+    background-color: #562EFF;
+    width: 1440px;
+    padding: 10px;
+    display: flex;
+}
+.logo{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.image img{
+    width: 40.42px;
+    height: 51px;
+}
+.text p{
+    color: white;
+    margin-left: 10px;
+}
+.navbar{
+    display: flex;
+    margin-left: 500px;
+}
+
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.nav ul li a:hover{
+    color: red;
+}
+
+.image2 img{
+    width: 51px;
+    height: 51px;
 }
 main{
     display: flex;
@@ -49,22 +95,15 @@ hr{
     margin-bottom: 27px;
 
 }
-.top-blogs{
-
-
-}
 .bolgs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-row-gap: 26px;
-
+    grid-column-gap: 20px;
 
 }
 .blog{
     display: flex;
-
-}
-.thumbnail{
 
 }
 .blog .thumbnail img{
@@ -91,6 +130,7 @@ hr{
 /* Latest Courses */
 
 .courses{
+    font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
@@ -99,19 +139,33 @@ hr{
 .course{
     box-shadow: 5px 5px 5px 5px #888888;
     border-radius: 5px;
-
-}
-.course-banner{
+    padding: 5px;
 
 }
 .course .course-banner img{
     width: 266px;
     height: 141px;
 }
+.course-author p{
+    color: #ED6B4F;
+    font-size: 14.6913px;
+}
 .course-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.course-info div span{
+    color: #A2A2A2;
+    margin-left: 10px;
+}
+.course-duration{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14.6913px;
+    color: #ED6B4F;
+    background-color: #e7bbb4;
+    border-radius: 20px;
+    padding: 2px;
 }
 .fa-star{
     font-size: 12px;
